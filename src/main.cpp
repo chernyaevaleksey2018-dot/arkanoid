@@ -341,9 +341,9 @@ int main() {
 
     // оверлей конца игры
     if (state == State::Win)
-      hud.drawEnd(window, "  Win!\nScore: " + std::to_string(score) + "\n\n   R — restart");
+      hud.drawEnd(window, "  Win!\nScore: " + std::to_string(score) + "\n\nR for restart");
     if (state == State::GameOver)
-      hud.drawEnd(window, "GAME OVER\nScore: " + std::to_string(score) + "\n\n R — restart");
+      hud.drawEnd(window, "GAME OVER\nScore: " + std::to_string(score) + "\n\nR for restart");
 
     window.display();
   }
