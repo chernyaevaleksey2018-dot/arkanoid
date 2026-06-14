@@ -1,0 +1,25 @@
+# Папки сборки
+build/
+_deps/
+CMakeFiles/
+
+# Временные файлы
+*.o
+*.exe
+*.out
+*.dSYM/
+.DS_Store
+
+# Файлы IDE
+.vscode/
+.idea/
+
+# Файлы CMake
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CPack*.cmake
+
+# Git
+*.git
